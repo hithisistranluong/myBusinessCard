@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+/* Background */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(246, 253, 255);
+}
+
+/* Business Card heading */
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+    /* color: rgb(0, 183, 255); */
+}
+
+/* My Photo */
+#myPhoto {
+    margin: 20px 0;
+    border: 5px solid skyblue;
+    border-radius: 50%;
+}
+
+/* The card */
+.container {
+    font-size: 20px;
+    width: 450px;
+    padding: 22px;
+    border: 5px solid skyblue;
+    border-radius: 10px;
+    background-color: white;
+}
+.container h1 {
+    font-size: 70px;
+    padding: 0px;
+    color: black;
+    font-family: 'Tangerine', serif;
+}
+.container p {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 30px;
+    font-family: monospace;
+}
+.container p:last-child {
+    font-size: 17px;
+    font-weight: normal;
+}
+.contact-box {
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    border: 2px solid skyblue;
+}
+.contact-box a {
+    text-decoration: none;
+    color: black;
+}
+.icon {
+    font-size: 20px;
+}
